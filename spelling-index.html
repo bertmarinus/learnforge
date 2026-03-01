@@ -241,19 +241,23 @@
 
         /* Responsive */
         @media (max-width: 768px) {
-            body { padding: 15px 15px 30px; }
+            body { padding: 12px 12px 30px; }
             .header h1 { font-size: 36px; }
             .app-icon { width: 68px; height: 68px; font-size: 36px; }
-            .card { padding: 30px 20px; }
+            .card { padding: 24px 14px; }
             .card h2 { font-size: 24px; }
-            .oefening-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
-            .oefening-card { padding: 22px 15px; }
-            .oefening-card .icon { font-size: 38px; }
-            .oefening-card .title { font-size: 17px; }
+            .oefening-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+            .oefening-card { padding: 18px 10px; }
+            .oefening-card .icon { font-size: 34px; }
+            .oefening-card .title { font-size: 15px; }
         }
 
         @media (max-width: 480px) {
-            .oefening-grid { grid-template-columns: repeat(2, 1fr); }
+            body { padding: 10px 10px 24px; }
+            .card { padding: 20px 10px; }
+            .oefening-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+            .oefening-card { padding: 16px 8px; }
+            .oefening-card .title { font-size: 14px; }
         }
 
         @media (min-width: 769px) and (max-width: 1024px) {
@@ -277,7 +281,9 @@
 
             <div class="oefening-grid">
 
-                <!-- 1 ACTIEF -->
+                <!-- ===== BASISSCHOOL WOORDSOORTEN ===== -->
+
+                <!-- Persoonsvorm -->
                 <a href="https://bertmarinus.github.io/persoonsvorm/" class="oefening-card">
                     <span class="badge-active">✓ Beschikbaar</span>
                     <span class="icon">🔍</span>
@@ -285,7 +291,7 @@
                     <div class="beschrijving">Vind de persoonsvorm</div>
                 </a>
 
-                <!-- 2 ACTIEF -->
+                <!-- Onderwerp -->
                 <a href="https://bertmarinus.github.io/onderwerp/index.html" class="oefening-card">
                     <span class="badge-active">✓ Beschikbaar</span>
                     <span class="icon">👤</span>
@@ -293,7 +299,7 @@
                     <div class="beschrijving">Vind het onderwerp</div>
                 </a>
 
-                <!-- 3 ACTIEF -->
+                <!-- Zelfstandig naamwoord -->
                 <a href="https://bertmarinus.github.io/zelfstandig-naamwoord/index.html" class="oefening-card">
                     <span class="badge-active">✓ Beschikbaar</span>
                     <span class="icon">🏷️</span>
@@ -301,79 +307,15 @@
                     <div class="beschrijving">Woorden benoemen</div>
                 </a>
 
-                <!-- 4 ACTIEF -->
-                <a href="https://bertmarinus.github.io/lijdend-voorwerp/index.html" class="oefening-card">
-                    <span class="badge-active">✓ Beschikbaar</span>
-                    <span class="icon">🎯</span>
-                    <div class="title">Lijdend voorwerp</div>
-                    <div class="beschrijving">Wie of wat?</div>
-                </a>
+                <!-- Bijvoeglijk naamwoord -->
+                <div class="oefening-card disabled">
+                    <span class="badge">Binnenkort</span>
+                    <span class="icon">🎨</span>
+                    <div class="title">Bijv. naamwoord</div>
+                    <div class="beschrijving">Groot, rood, mooi...</div>
+                </div>
 
-                <!-- 5 ACTIEF -->
-                <a href="https://bertmarinus.github.io/meewerkend-voorwerp" class="oefening-card">
-                    <span class="badge-active">✓ Beschikbaar</span>
-                    <span class="icon">🤝</span>
-                    <div class="title">Meewerkend vw.</div>
-                    <div class="beschrijving">Aan wie, voor wie</div>
-                </a>
-
-                <!-- 6 ACTIEF -->
-                <a href="https://bertmarinus.github.io/kofschip/" class="oefening-card">
-                    <span class="badge-active">✓ Beschikbaar</span>
-                    <span class="icon">⛵</span>
-                    <div class="title">'t Ex-kofschip</div>
-                    <div class="beschrijving">Werkwoordsvorm kiezen</div>
-                </a>
-
-                <!-- 7 ACTIEF -->
-                <a href="https://bertmarinus.github.io/voegwoord/index.html" class="oefening-card">
-                    <span class="badge-active">✓ Beschikbaar</span>
-                    <span class="icon">🔀</span>
-                    <div class="title">Voegwoord</div>
-                    <div class="beschrijving">En, maar, want, dus</div>
-                </a>
-
-                <!-- 8 ACTIEF -->
-                <a href="https://bertmarinus.github.io/voorzetsel" class="oefening-card">
-                    <span class="badge-active">✓ Beschikbaar</span>
-                    <span class="icon">📍</span>
-                    <div class="title">Voorzetsels</div>
-                    <div class="beschrijving">In, op, bij, naar...</div>
-                </a>
-
-                <!-- 9 ACTIEF -->
-                <a href="https://bertmarinus.github.io/telwoorden/index.html" class="oefening-card">
-                    <span class="badge-active">✓ Beschikbaar</span>
-                    <span class="icon">🔢</span>
-                    <div class="title">Telwoorden</div>
-                    <div class="beschrijving">Één, twee, eerste...</div>
-                </a>
-
-                <!-- 10 ACTIEF -->
-                <a href="https://bertmarinus.github.io/samengestelde-zinnen/index.html" class="oefening-card">
-                    <span class="badge-active">✓ Beschikbaar</span>
-                    <span class="icon">🔗</span>
-                    <div class="title">Samengestelde zinnen</div>
-                    <div class="beschrijving">Zinnen verbinden</div>
-                </a>
-
-                <!-- 11 ACTIEF -->
-                <a href="https://bertmarinus.github.io/hoofd-bijzin/" class="oefening-card">
-                    <span class="badge-active">✓ Beschikbaar</span>
-                    <span class="icon">📝</span>
-                    <div class="title">Hoofdzin en bijzin</div>
-                    <div class="beschrijving">Zinsdelen herkennen</div>
-                </a>
-
-                <!-- 12 ACTIEF -->
-                <a href="https://bertmarinus.github.io/bezittelijk-voornaamwoord/index.html" class="oefening-card">
-                    <span class="badge-active">✓ Beschikbaar</span>
-                    <span class="icon">🏠</span>
-                    <div class="title">Bezittelijk vnw.</div>
-                    <div class="beschrijving">Mijn, jouw, zijn...</div>
-                </a>
-
-                <!-- 13 ACTIEF -->
+                <!-- Persoonlijk voornaamwoord -->
                 <a href="https://bertmarinus.github.io/persoonlijk-voornaamwoord/index.html" class="oefening-card">
                     <span class="badge-active">✓ Beschikbaar</span>
                     <span class="icon">💬</span>
@@ -381,7 +323,23 @@
                     <div class="beschrijving">Ik, jij, hij, wij...</div>
                 </a>
 
-                <!-- 14 ACTIEF -->
+                <!-- Bezittelijk voornaamwoord -->
+                <a href="https://bertmarinus.github.io/bezittelijk-voornaamwoord/index.html" class="oefening-card">
+                    <span class="badge-active">✓ Beschikbaar</span>
+                    <span class="icon">🏠</span>
+                    <div class="title">Bezittelijk vnw.</div>
+                    <div class="beschrijving">Mijn, jouw, zijn...</div>
+                </a>
+
+                <!-- Aanwijzend voornaamwoord -->
+                <div class="oefening-card disabled">
+                    <span class="badge">Binnenkort</span>
+                    <span class="icon">👉</span>
+                    <div class="title">Aanwijzend vnw.</div>
+                    <div class="beschrijving">Deze, dit, die, dat</div>
+                </div>
+
+                <!-- Wederkerend voornaamwoord -->
                 <a href="https://bertmarinus.github.io/wederkerend-wederkerig-voornaamwoord/index.html" class="oefening-card">
                     <span class="badge-active">✓ Beschikbaar</span>
                     <span class="icon">🔄</span>
@@ -389,15 +347,113 @@
                     <div class="beschrijving">Zichzelf, elkaar</div>
                 </a>
 
-                <!-- 15 ACTIEF -->
+                <!-- Vragend voornaamwoord -->
+                <div class="oefening-card disabled">
+                    <span class="badge">Binnenkort</span>
+                    <span class="icon">❓</span>
+                    <div class="title">Vragend vnw.</div>
+                    <div class="beschrijving">Wie, wat, welk...</div>
+                </div>
+
+                <!-- Betrekkelijk voornaamwoord -->
+                <div class="oefening-card disabled">
+                    <span class="badge">Binnenkort</span>
+                    <span class="icon">🔗</span>
+                    <div class="title">Betrekkelijk vnw.</div>
+                    <div class="beschrijving">Die, dat, welke, wie</div>
+                </div>
+
+                <!-- Onbepaald voornaamwoord -->
+                <div class="oefening-card disabled">
+                    <span class="badge">Binnenkort</span>
+                    <span class="icon">🌫️</span>
+                    <div class="title">Onbepaald vnw.</div>
+                    <div class="beschrijving">Iemand, iets, alles</div>
+                </div>
+
+                <!-- Voegwoord -->
+                <a href="https://bertmarinus.github.io/voegwoord/index.html" class="oefening-card">
+                    <span class="badge-active">✓ Beschikbaar</span>
+                    <span class="icon">🔀</span>
+                    <div class="title">Voegwoord</div>
+                    <div class="beschrijving">En, maar, want, dus</div>
+                </a>
+
+                <!-- Voorzetsel -->
+                <a href="https://bertmarinus.github.io/voorzetsel" class="oefening-card">
+                    <span class="badge-active">✓ Beschikbaar</span>
+                    <span class="icon">📍</span>
+                    <div class="title">Voorzetsels</div>
+                    <div class="beschrijving">In, op, bij, naar...</div>
+                </a>
+
+                <!-- Bijwoord -->
                 <a href="https://bertmarinus.github.io/bijwoord/index.html" class="oefening-card">
                     <span class="badge-active">✓ Beschikbaar</span>
-                    <span class="icon">🚀</span>
+                    <span class="icon">⚡</span>
                     <div class="title">Bijwoord</div>
                     <div class="beschrijving">Hoe, waar, wanneer</div>
                 </a>
 
-                <!-- 16 BINNENKORT -->
+                <!-- Telwoorden -->
+                <a href="https://bertmarinus.github.io/telwoorden/index.html" class="oefening-card">
+                    <span class="badge-active">✓ Beschikbaar</span>
+                    <span class="icon">🔢</span>
+                    <div class="title">Telwoorden</div>
+                    <div class="beschrijving">Één, twee, eerste...</div>
+                </a>
+
+                <!-- Lijdend voorwerp -->
+                <a href="https://bertmarinus.github.io/lijdend-voorwerp/index.html" class="oefening-card">
+                    <span class="badge-active">✓ Beschikbaar</span>
+                    <span class="icon">🎯</span>
+                    <div class="title">Lijdend voorwerp</div>
+                    <div class="beschrijving">Wie of wat?</div>
+                </a>
+
+                <!-- Meewerkend voorwerp -->
+                <a href="https://bertmarinus.github.io/meewerkend-voorwerp" class="oefening-card">
+                    <span class="badge-active">✓ Beschikbaar</span>
+                    <span class="icon">🤝</span>
+                    <div class="title">Meewerkend vw.</div>
+                    <div class="beschrijving">Aan wie, voor wie</div>
+                </a>
+
+                <!-- Hoofdzin en bijzin -->
+                <a href="https://bertmarinus.github.io/hoofd-bijzin/" class="oefening-card">
+                    <span class="badge-active">✓ Beschikbaar</span>
+                    <span class="icon">📝</span>
+                    <div class="title">Hoofdzin en bijzin</div>
+                    <div class="beschrijving">Zinsdelen herkennen</div>
+                </a>
+
+                <!-- 't Ex-kofschip -->
+                <a href="https://bertmarinus.github.io/kofschip/" class="oefening-card">
+                    <span class="badge-active">✓ Beschikbaar</span>
+                    <span class="icon">⛵</span>
+                    <div class="title">'t Ex-kofschip</div>
+                    <div class="beschrijving">Werkwoordsvorm kiezen</div>
+                </a>
+
+                <!-- ===== OVERIGE OEFENINGEN ===== -->
+
+                <!-- Mollen & molen -->
+                <div class="oefening-card disabled">
+                    <span class="badge">Binnenkort</span>
+                    <span class="icon">🦔</span>
+                    <div class="title">Mollen & molen</div>
+                    <div class="beschrijving">Korte en lange klinkers</div>
+                </div>
+
+                <!-- Samengestelde zinnen -->
+                <div class="oefening-card disabled">
+                    <span class="badge">Binnenkort</span>
+                    <span class="icon">🔗</span>
+                    <div class="title">Samengestelde zinnen</div>
+                    <div class="beschrijving">Zinnen verbinden</div>
+                </div>
+
+                <!-- Tussenwerpsels -->
                 <div class="oefening-card disabled">
                     <span class="badge">Binnenkort</span>
                     <span class="icon">😮</span>
@@ -405,7 +461,7 @@
                     <div class="beschrijving">Oh! Wow! Hé!</div>
                 </div>
 
-                <!-- 17 BINNENKORT -->
+                <!-- Voorzetselvoorwerp -->
                 <div class="oefening-card disabled">
                     <span class="badge">Binnenkort</span>
                     <span class="icon">🔁</span>
@@ -413,8 +469,8 @@
                     <div class="beschrijving">Op, aan, over...</div>
                 </div>
 
-            </div>
         </div>
     </div>
+
 </body>
 </html>
