@@ -241,19 +241,23 @@
 
         /* Responsive */
         @media (max-width: 768px) {
-            body { padding: 15px 15px 30px; }
+            body { padding: 12px 12px 30px; }
             .header h1 { font-size: 36px; }
             .app-icon { width: 68px; height: 68px; font-size: 36px; }
-            .card { padding: 30px 20px; }
+            .card { padding: 24px 14px; }
             .card h2 { font-size: 24px; }
-            .oefening-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
-            .oefening-card { padding: 22px 15px; }
-            .oefening-card .icon { font-size: 38px; }
-            .oefening-card .title { font-size: 17px; }
+            .oefening-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+            .oefening-card { padding: 18px 10px; }
+            .oefening-card .icon { font-size: 34px; }
+            .oefening-card .title { font-size: 15px; }
         }
 
         @media (max-width: 480px) {
-            .oefening-grid { grid-template-columns: repeat(2, 1fr); }
+            body { padding: 10px 10px 24px; }
+            .card { padding: 20px 10px; }
+            .oefening-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+            .oefening-card { padding: 16px 8px; }
+            .oefening-card .title { font-size: 14px; }
         }
 
         @media (min-width: 769px) and (max-width: 1024px) {
